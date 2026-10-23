@@ -3,4 +3,11 @@
 .vscode/
 *.swp
 /cenv
-requirements.txt
+
+# Reinstallable dependencies and local build/cache output
+**/node_modules/
+**/target/
+**/__pycache__/
+*.py[cod]
+.venv/
+.env
